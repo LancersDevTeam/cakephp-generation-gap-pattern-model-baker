@@ -1,4 +1,4 @@
-# GenerationGapModelBaker plugin for CakePHP
+# GenerationGapModelBaker plugin for CakePHP4
 This is a plugin that uses the Generation gap pattern to realize bakeable Model operations.
 
 The automatic generation tool creates only superclasses. And humans do not modify it. Humans create subclasses of that class. The auto-generator does not manipulate those subclasses.
@@ -14,7 +14,7 @@ You can install this plugin into your CakePHP application using [composer](https
 The recommended way to install composer packages is:
 
 ```
-composer require your-name-here/generation-gap-model-baker
+ccomposer require lancers/cakephp-generation-gap-pattern-model-baker
 ```
 
 To install with `composer.json` , add the following
