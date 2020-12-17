@@ -1,5 +1,5 @@
 {
-    "name": "your-name-here/generation-gap-model-baker",
+    "name": "lancers/cakephp-generation-gap-pattern-model-baker",
     "description": "GenerationGapModelBaker plugin for CakePHP4",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "bake"],
