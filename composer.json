@@ -1,7 +1,9 @@
 {
     "name": "your-name-here/generation-gap-model-baker",
-    "description": "GenerationGapModelBaker plugin for CakePHP",
+    "description": "GenerationGapModelBaker plugin for CakePHP4",
     "type": "cakephp-plugin",
+    "keywords": ["cakephp", "bake"],
+    "homepage": "https://github.com/LancersDevTeam/cakephp-generation-gap-pattern-model-baker",
     "license": "MIT",
     "require": {
         "php": ">=7.2",
