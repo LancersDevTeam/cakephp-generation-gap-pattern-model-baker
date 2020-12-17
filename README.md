@@ -14,7 +14,7 @@ You can install this plugin into your CakePHP application using [composer](https
 The recommended way to install composer packages is:
 
 ```
-ccomposer require lancers/cakephp-generation-gap-pattern-model-baker
+ccomposer require --dev lancers/cakephp-generation-gap-pattern-model-baker
 ```
 
 To install with `composer.json` , add the following
