@@ -20,7 +20,7 @@ ccomposer require lancers/cakephp-generation-gap-pattern-model-baker
 To install with `composer.json` , add the following
 
 ```json
-    "require": {
+    "require-dev": {
         "lancers/cakephp-generation-gap-pattern-model-baker": "1.*",
     }
 ```
