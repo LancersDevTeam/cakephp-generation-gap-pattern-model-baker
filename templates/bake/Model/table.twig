@@ -15,16 +15,15 @@
 #}
 {% set annotations = DocBlock.buildTableAnnotations(associations, associationInfo, behaviors, entity, namespace) %}
 <?php
+
 declare(strict_types=1);
 
 namespace {{ namespace }}\Model\Baked\Table;
 
 {% set uses = [
-        'use Cake\\ORM\\Query;',
-        'use Cake\\ORM\\RulesChecker;',
-        'use Cake\\ORM\\Table;',
-        'use Cake\\Validation\\Validator;',
         'use App\\Model\\Table\\BaseTable;',
+        'use Cake\\ORM\\RulesChecker;',
+        'use Cake\\Validation\\Validator;',
     ] %}
 {{ uses|join('\n')|raw }}
 
